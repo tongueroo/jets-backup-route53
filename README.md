@@ -19,6 +19,6 @@ Backs up Route53 Records to S3 Bucket.
 
 ## Resources
 
-* Blog Post:
+* Blog Post: [Serverless Ruby Cron Jobs with Jets: Route53 Backup](https://blog.boltops.com/2019/01/03/serverless-ruby-cron-jobs-with-jets-route53-backup)
 
 If you find Jets interesting, please it a GitHub star <a href="https://github.com/tongueroo/jets">tongueroo/jets</a>. It helps others find out about the project.  I'd appreciate it!
