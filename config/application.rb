@@ -2,7 +2,7 @@ Jets.application.configure do
   config.project_name = "backer"
   config.mode = "job"
 
-  # config.prewarm.enable = true # default is true
+  config.prewarm.enable = false # default is true
   # config.prewarm.rate = '30 minutes' # default is '30 minutes'
   # config.prewarm.concurrency = 2 # default is 2
   # config.prewarm.public_ratio = 3 # default is 3
