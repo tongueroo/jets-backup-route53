@@ -29,7 +29,7 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     arel (9.0.0)
     aws-eventstream (1.0.1)
-    aws-partitions (1.127.0)
+    aws-partitions (1.128.0)
     aws-sdk-apigateway (1.23.0)
       aws-sdk-core (~> 3, >= 3.39.0)
       aws-sigv4 (~> 1.0)
@@ -51,6 +51,9 @@ GEM
       aws-sdk-core (~> 3, >= 3.39.0)
       aws-sigv4 (~> 1.0)
     aws-sdk-lambda (1.16.0)
+      aws-sdk-core (~> 3, >= 3.39.0)
+      aws-sigv4 (~> 1.0)
+    aws-sdk-route53 (1.17.0)
       aws-sdk-core (~> 3, >= 3.39.0)
       aws-sigv4 (~> 1.0)
     aws-sdk-s3 (1.30.0)
@@ -172,6 +175,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  aws-sdk-route53
   byebug
   capybara
   jets
