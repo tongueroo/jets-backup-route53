@@ -4,6 +4,7 @@ require 'json'
 class BackupJob < ApplicationJob
   iam_policy "s3"
   managed_iam_policy "AmazonRoute53ReadOnlyAccess"
+  rate "1 day"
   def route53_records
     puts "Backing up route53 records"
 
