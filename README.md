@@ -12,6 +12,8 @@ Backs up Route53 Records to S3 Bucket.
     echo "S3_BUCKET=my-s3-bucket" > .env
     jets deploy
 
+Note, the project name is "backer". To change this adjust [config/application.rb](config/application.rb). More info: [Jets App Configuration](http://rubyonjets.com/docs/app-config/)
+
 ## To test locally
 
     $ jets console
