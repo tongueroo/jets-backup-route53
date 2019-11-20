@@ -1,5 +1,7 @@
 # Backer
 
+[![BoltOps Badge](https://img.boltops.com/boltops/badges/boltops-badge.png)](https://www.boltops.com)
+
 Backs up Route53 Records to S3 Bucket.
 
 ![](https://raw.githubusercontent.com/tongueroo/jets-backup-route53/master/screenshots/backer-lambda-console.png)
