@@ -1,2 +1,2 @@
 require 'jets'
-Jets.load_tasks
+Jets.application.load_tasks
